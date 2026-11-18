@@ -1,0 +1,26 @@
+# Core agent framework
+langchain
+langgraph
+
+# LLM providers (free tiers)
+langchain-google-genai   # Gemini chat + embeddings
+langchain-groq           # backup LLM
+
+# RAG
+langchain-chroma
+langchain-text-splitters
+
+# Backend
+fastapi
+uvicorn[standard]
+
+# Observability / evals
+langsmith
+
+# Utilities
+pydantic
+python-dotenv
+
+# Testing
+pytest
+httpx

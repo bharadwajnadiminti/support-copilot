@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Claude local settings (CLAUDE.md IS committed so web sessions can read it)
+.claude/
+
+# Virtual environment
+.venv/
+venv/
+
+# Vector DB (rebuildable from data/docs)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
