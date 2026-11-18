@@ -24,3 +24,9 @@ python-dotenv
 # Testing
 pytest
 httpx
+
+# Pins: Windows Smart App Control blocks unsigned DLLs in some newer wheels.
+# These versions are known to load on this machine (2026-11-19).
+numpy<2.3        # 2.5.x blocked
+grpcio==1.78.0   # 1.85.x and 1.71.x blocked
+xxhash<4         # 4.1.0 blocked

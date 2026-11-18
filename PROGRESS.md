@@ -2,10 +2,12 @@
 
 ## Current position
 - Setup step 2 of 5 (folder structure) done. Next: API keys.
-- 2026-11-19 re-check, waiting on user to:
-  1. Add `C:\Program Files\Git\cmd` to PATH (git not found in PowerShell)
-  2. `git init` + first commit (repo not initialized)
-  3. Create `.venv` + `pip install -r requirements.txt` (no venv yet)
+- 2026-11-19: git repo set up + pushed, `.venv` created, all packages import OK.
+  NEXT: setup step 3 (API keys).
+- Windows Smart App Control (On) blocked unsigned DLLs in xxhash 4.1, numpy 2.5,
+  grpcio 1.85. Fixed by pinning older versions in requirements.txt. If a new
+  "DLL load failed ... Application Control policy" error appears, pin an
+  older version of that package.
 - Docker missing (only needed in Phase 8).
 - Session memory lives in CLAUDE.md (committed, auto-loaded).
 - GitHub repo: https://github.com/bharadwajnadiminti/support-copilot (private)
